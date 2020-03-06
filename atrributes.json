@@ -1,0 +1,148 @@
+{
+"selectors":[  
+    {  
+        "id":"title",
+        "description":"",
+        "type":"SelectorText",
+        "parentSelectors":[  
+        ],
+        "selector":"#productTitle",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+    },
+    {
+        "id":"description",
+        "type":"SelectorText",
+        "description":"",
+        "parentSelectors":[  
+        ],
+        "selector":"#productDescription",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+
+    },
+    {  
+        "id":"productDetails",
+        "description":"",
+        "type":"SelectorText",
+        "parentSelectors":[  
+        ],
+        "selector":"#feature-bullets li",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+    },
+    {
+        "id":"offerprice",
+        "description": "",
+        "type":"SelectorText",
+        "parentSelectors":[  
+        ],
+        "selector":"#priceblock_ourprice",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+    }, 
+    {  
+        "id":"listPrice",
+        "description": "",
+        "type":"SelectorText",
+        "parentSelectors":[  
+        ],
+        "selector":"#price .a-text-strike",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+    },
+    {  
+        "id":"promotion",
+        "description": "",
+        "type":"SelectorText",
+        "parentSelectors":[  
+        ],
+        "selector":"#vpcButtonSns",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+    },
+    {  
+        "id":"availability",
+        "description": "",
+        "type":"SelectorText",
+        "parentSelectors":[  
+        ],
+        "selector":"#availability_feature_div",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+    },
+    {  
+        "id":"star1Rating",
+        "description": "",
+        "type":"SelectorText",
+        "parentSelectors":[  
+        ],
+        "selector":"#histogramTable tr.a-histogram-row:nth-child(5) td:nth-child(3)",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+    },
+    {  
+        "id":"star2Rating",
+        "description": "",
+        "type":"SelectorText",
+        "parentSelectors":[  
+        ],
+        "selector":"#histogramTable tr.a-histogram-row:nth-child(4) td:nth-child(3)",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+    },
+    {  
+        "id":"star3Rating",
+        "description": "",
+        "type":"SelectorText",
+        "parentSelectors":[  
+        ],
+        "selector":"#histogramTable tr.a-histogram-row:nth-child(3) td:nth-child(3)",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+    },
+    {  
+        "id":"star4Rating",
+        "description": "",
+        "type":"SelectorText",
+        "parentSelectors":[  
+        ],
+        "selector":"#histogramTable tr.a-histogram-row:nth-child(2) td:nth-child(3)",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+    },
+    {  
+        "id":"star5Rating",
+        "description": "",
+        "type":"SelectorText",
+        "parentSelectors":[  
+        ],
+        "selector":"#histogramTable tr.a-histogram-row:nth-child(1) td:nth-child(3)",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+    },
+    {  
+        "id":"customerReviewsCount",
+        "description": "",
+        "type":"SelectorText",
+        "parentSelectors":[  
+        ],
+        "selector":"#averageCustomerReviews #acrCustomerReviewText",
+        "regex":[],
+        "multiple":false,
+        "delay":0
+    }
+    ]
+}
